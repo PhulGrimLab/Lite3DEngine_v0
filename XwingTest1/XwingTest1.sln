@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine01Editor", "Engine01Editor\Engine01Editor.csproj", "{0FCC7AD9-8B95-47E1-AF9C-C51F7D95C9A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine01", "Engine01\Engine01.vcxproj", "{385C8EED-C250-489F-BFE1-8F4791A2019F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XwingTest1", "XwingTest1.vcxproj", "{05F32EC6-FEDB-4909-A804-3036507492F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05F32EC6-FEDB-4909-A804-3036507492F7}.Debug|x64.ActiveCfg = Debug|x64
+		{05F32EC6-FEDB-4909-A804-3036507492F7}.Debug|x64.Build.0 = Debug|x64
+		{05F32EC6-FEDB-4909-A804-3036507492F7}.Release|x64.ActiveCfg = Release|x64
+		{05F32EC6-FEDB-4909-A804-3036507492F7}.Release|x64.Build.0 = Release|x64
+		{385C8EED-C250-489F-BFE1-8F4791A2019F}.Debug|x64.ActiveCfg = Debug|x64
+		{385C8EED-C250-489F-BFE1-8F4791A2019F}.Debug|x64.Build.0 = Debug|x64
+		{385C8EED-C250-489F-BFE1-8F4791A2019F}.Release|x64.ActiveCfg = Release|x64
+		{385C8EED-C250-489F-BFE1-8F4791A2019F}.Release|x64.Build.0 = Release|x64
+		{0FCC7AD9-8B95-47E1-AF9C-C51F7D95C9A4}.Debug|x64.ActiveCfg = Debug|x64
+		{0FCC7AD9-8B95-47E1-AF9C-C51F7D95C9A4}.Debug|x64.Build.0 = Debug|x64
+		{0FCC7AD9-8B95-47E1-AF9C-C51F7D95C9A4}.Release|x64.ActiveCfg = Release|Any CPU
+		{0FCC7AD9-8B95-47E1-AF9C-C51F7D95C9A4}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC67D383-143E-42E8-9A31-567181C47471}
+	EndGlobalSection
+EndGlobal
