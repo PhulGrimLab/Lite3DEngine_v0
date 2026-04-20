@@ -5,19 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Engine01Editor.GameProject"
         mc:Ignorable="d" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
-        Title="ProjectBrowserDialog" Height="450" Width="800">
+        Title="Project Browser" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition />
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20">
-            <ToggleButton Content="Open Project" x:Name="openProjectButton" FontSize="32"/>
-            <ToggleButton Content="Create Project" x:Name="newProjectButton" FontSize="32" Margin="30,0,0,0"/>
+            <ToggleButton Content="Open Project" x:Name="openProjectButton" FontSize="32"
+                          Click="OnToggleButton_Click" IsChecked="True"/>
+            <ToggleButton Content="Create Project" x:Name="createProjectButton" FontSize="32" Margin="30,0,0,0" 
+                          Click="OnToggleButton_Click" IsChecked="False"/>
         </StackPanel>
-        <StackPanel Orientation="Horizontal" Grid.Row="1">
+        <StackPanel Orientation="Horizontal" Grid.Row="1" x:Name="BrowserContent">
             <Border Width="800" Background="LightBlue">
-                <TextBlock Text="Welcome to Engine01 Editor!" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Open Project" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border Width="800" Background="LightGreen">
+                <TextBlock Text="Create Project" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Border>
         </StackPanel>
     </Grid>
