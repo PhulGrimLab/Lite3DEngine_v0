@@ -18,12 +18,8 @@
                           Click="OnToggleButton_Click" IsChecked="False"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" Grid.Row="1" x:Name="BrowserContent">
-            <Border Width="800" Background="LightBlue">
-                <TextBlock Text="Open Project" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
-            <Border Width="800" Background="LightGreen">
-                <TextBlock Text="Create Project" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </Border>
+            <local:OpenProjectView/>
+            <local:NewProjectView/>
         </StackPanel>
     </Grid>
 </Window>

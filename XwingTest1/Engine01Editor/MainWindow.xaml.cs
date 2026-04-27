@@ -34,7 +34,11 @@ namespace Engine01Editor
             var projectBrowserDialog = new GameProject.ProjectBrowserDialog();
             if(projectBrowserDialog.ShowDialog() == false)
             {                 // User canceled the dialog, close the application
-                Close();
+                Application.Current.Shutdown();
+            }
+            else
+            { 
+            
             }
         }
     }
