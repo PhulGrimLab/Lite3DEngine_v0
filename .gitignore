@@ -9,6 +9,8 @@ dist/
 .vs/
 obj/
 bin/
+Debug/
+Release/
 
 # Compiled Java class files
 *.class
